@@ -37,7 +37,7 @@
     <project remote="ikuz" name="camkes-sc-tests.git" path="projects/camkes-sc-tests" revision="master">
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
-	<linkfile src="apps/sc" dest="apps/sc"/>
+	<linkfile src="apps/cs-nodonate" dest="apps/cs-nodonate"/>
     </project>
 
     <!-- kernel (forked rt version) -->
