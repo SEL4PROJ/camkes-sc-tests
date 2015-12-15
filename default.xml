@@ -21,11 +21,11 @@
 
     <!-- create a remote for fetching seL4 scheduling related repositories -->
     <remote name="sched"
-        fetch="../alyons"
+        fetch="../~alyons"
     />
 
     <remote name="ikuz"
-	fetch="../ikuz"
+	fetch="../~ikuz"
     />
 
     <!-- default revision for each project, and name of the remote -->
@@ -70,10 +70,11 @@
     <project name="pruner.git" path="tools/pruner"/>
 
     <!-- scheduling library - TODO integrate at some point -->
-    <project remote="sched" name="libsel4sched.git" path="libs/libsel4sched" />
+    <!-- <project remote="sched" name="libsel4sched.git" path="libs/libsel4sched" /> -->
 
     <!-- seL4 libraries (forked rt version) -->
-    <project remote="sched" name="seL4_libs.git" path="projects/seL4_libs" revision="rt" >
+    <!-- <project remote="sched" name="seL4_libs.git" path="projects/seL4_libs" revision="rt" > -->
+    <project remote="seL4" name="seL4_libs.git" path="projects/seL4_libs" revision="master" >
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
         <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
         <linkfile src="libsel4utils" dest="libs/libsel4utils"/>
