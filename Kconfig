@@ -42,7 +42,7 @@ menu "Applications"
     source "apps/capdl-loader-experimental/Kconfig"
 
     menu "SC Tests"
-        source "apps/sc/Kconfig"
+        source "apps/cs-nodonate/Kconfig"
     endmenu
 
 endmenu
