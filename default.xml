@@ -42,7 +42,7 @@
 
     <!-- kernel (forked rt version) -->
     <!-- <project remote="sched" name="seL4.git" path="kernel" revision="rt-proper"> -->
-    <project remote="sel4" name="seL4.git" path="kernel" revision="rt">
+    <project remote="seL4" name="seL4.git" path="kernel" revision="rt">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
