@@ -76,6 +76,7 @@
     <!-- seL4 libraries (forked rt version) -->
     <!-- <project remote="seL4" name="seL4_libs.git" path="projects/seL4_libs" revision="rt"> --> 
     <project remote="sched" name="seL4_libs.git" path="projects/seL4_libs" revision="rt-proper"> 
+    <!-- <project remote="seL4" name="seL4_libs.git" path="projects/seL4_libs" revision="master" > -->
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
         <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
         <linkfile src="libsel4utils" dest="libs/libsel4utils"/>
