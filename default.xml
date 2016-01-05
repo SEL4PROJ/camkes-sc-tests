@@ -38,6 +38,7 @@
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
 	<linkfile src="apps/cs-nodonate" dest="apps/cs-nodonate"/>
+	<linkfile src="apps/periodic" dest="apps/periodic"/>
     </project>
 
     <!-- kernel (forked rt version) -->
