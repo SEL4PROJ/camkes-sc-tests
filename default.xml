@@ -34,15 +34,15 @@
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project remote="ikuz" name="camkes-sc-tests.git" path="projects/camkes-sc-tests" revision="master">
+    <project remote="ikuz" name="camkes-sc-tests.git" path="projects/camkes-sc-tests" revision="sc-alyons">
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
 	<linkfile src="apps/cs-nodonate" dest="apps/cs-nodonate"/>
     </project>
 
     <!-- kernel (forked rt version) -->
-    <!-- <project remote="sched" name="seL4.git" path="kernel" revision="rt-proper"> -->
-    <project remote="seL4" name="seL4.git" path="kernel" revision="rt">
+    <project remote="sched" name="seL4.git" path="kernel" revision="rt-proper"> 
+    <!-- <project remote="seL4" name="seL4.git" path="kernel" revision="rt"> -->
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
@@ -53,7 +53,7 @@
     </project>
 
     <!-- camkes (forked sc version) -->
-    <project remote = "ikuz" name="camkes-tool.git" path="tools/camkes" revision="sc">
+    <project remote = "ikuz" name="camkes-tool.git" path="tools/camkes" revision="sc-alyons">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
@@ -62,7 +62,7 @@
     </project>
 
     <!-- capdl (forked sc version) -->
-    <project remote="ikuz" name="capdl.git" path="projects/capdl" revision="sc">
+    <project remote="ikuz" name="capdl.git" path="projects/capdl" revision="sc-alyons">
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
@@ -74,8 +74,8 @@
     <!-- <project remote="sched" name="libsel4sched.git" path="libs/libsel4sched" /> -->
 
     <!-- seL4 libraries (forked rt version) -->
-    <!-- <project remote="sched" name="seL4_libs.git" path="projects/seL4_libs" revision="rt-proper" > -->
-    <project remote="seL4" name="seL4_libs.git" path="projects/seL4_libs" revision="rt" > 
+    <!-- <project remote="seL4" name="seL4_libs.git" path="projects/seL4_libs" revision="rt"> --> 
+    <project remote="sched" name="seL4_libs.git" path="projects/seL4_libs" revision="rt-proper"> 
     <!-- <project remote="seL4" name="seL4_libs.git" path="projects/seL4_libs" revision="master" > -->
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
         <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
