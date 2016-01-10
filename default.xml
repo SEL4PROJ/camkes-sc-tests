@@ -38,11 +38,13 @@
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
 	<linkfile src="apps/cs-nodonate" dest="apps/cs-nodonate"/>
+	<linkfile src="apps/cs-donate" dest="apps/cs-donate"/>
 	<linkfile src="apps/periodic" dest="apps/periodic"/>
     </project>
 
     <!-- kernel (forked rt version) -->
-    <project remote="sched" name="seL4.git" path="kernel" revision="rt-proper"> 
+    <project remote="sched" name="seL4.git" path="kernel" revision="sched-donation"> 
+    <!-- <project remote="sched" name="seL4.git" path="kernel" revision="rt-proper"> -->
     <!-- <project remote="seL4" name="seL4.git" path="kernel" revision="rt"> -->
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>

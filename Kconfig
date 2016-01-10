@@ -43,6 +43,7 @@ menu "Applications"
 
     menu "SC Tests"
         source "apps/cs-nodonate/Kconfig"
+        source "apps/cs-donate/Kconfig"
         source "apps/periodic/Kconfig"
     endmenu
 
