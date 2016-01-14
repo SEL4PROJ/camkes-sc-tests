@@ -45,6 +45,7 @@ menu "Applications"
         source "apps/cs-nodonate/Kconfig"
         source "apps/cs-donate/Kconfig"
         source "apps/periodic/Kconfig"
+        source "apps/event-driven/Kconfig"
     endmenu
 
 endmenu
