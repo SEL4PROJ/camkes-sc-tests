@@ -48,6 +48,7 @@ menu "Applications"
         source "apps/event-driven/Kconfig"
         source "apps/mcs-donate/Kconfig"
         source "apps/mcs-nodonate/Kconfig"
+        source "apps/cms-donate/Kconfig"
     endmenu
 
 endmenu
