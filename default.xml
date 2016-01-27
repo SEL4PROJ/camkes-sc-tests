@@ -35,6 +35,7 @@
 	<linkfile src="apps/mcs-nodonate" dest="apps/mcs-nodonate"/>
 	<linkfile src="apps/mcs-donate" dest="apps/mcs-donate"/>
 	<linkfile src="apps/event-driven" dest="apps/event-driven"/>
+	<linkfile src="apps/event-driven-donate" dest="apps/event-driven-donate"/>
     </project>
 
     <!-- kernel (forked rt version) -->
