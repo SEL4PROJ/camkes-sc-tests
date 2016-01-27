@@ -19,6 +19,6 @@ To fetch do:
 
     mkdir camkes-sc-tests
     cd camkes-sc-tests
-    repo init -u https://github.inside.nicta.com.au/ikuz/camkes-sc-tests.git
+    repo init -u https://github.com/seL4-projects/camkes-sc-tests.git
     repo sync
 
